@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
   </head>
@@ -26,9 +23,9 @@
 
       <nav>
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ARTICOLI</a></li>
-          <li><a href="#">LAVORA CON NOI</a></li>
+          <li><a href="#">&#8658;HOME&#8658;</a></li>
+          <li><a href="#">&#8658;ARTICOLI&#8658;</a></li>
+          <li><a href="#">&#8658;LAVORA CON NOI&#8658;</a></li>
         </ul>
       </nav>
     </header>
@@ -69,7 +66,9 @@
           <li>Applicare gli stili CSS</li>
         </ol>
 
-        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+        <p class="app-stili">
+          L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+        </p>
       </article>
 
       <table>
@@ -137,6 +136,31 @@
           <button type="submit">Iscriviti!</button>
         </form>
       </div>
+
+      <h2 class="news-title">ARTICOLI CORRELATI</h2>
+      <div class="articoli-correlati">
+        <a class="link-articoli" href="#">Validare il codice HTML</a>
+        <p><i class="fas fa-tag"></i> Categoria: develop</p>
+        <p><i class="date fas fa-calendar-alt"></i> Data: 18-9-2020</p>
+      </div>
+      <div class="articoli-correlati">
+        <a class="link-articoli" href="#">Correggere la sintassi</a>
+        <p><i class="fas fa-tag"></i> Categoria: develop</p>
+        <p><i class="date fas fa-calendar-alt"></i> Data: 16-9-2020</p>
+      </div>
+      <div class="articoli-correlati">
+        <a class="link-articoli" href="#">Meno Kb nella pagina</a>
+        <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+        <p><i class="date fas fa-calendar-alt"></i> Data: 30-9-2020</p>
+      </div>
     </main>
+
+    <footer>
+      <p class="copy">Blog Epicode &copy;2021</p>
+      <address>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+        <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a>
+      </address>
+    </footer>
   </body>
 </html>
