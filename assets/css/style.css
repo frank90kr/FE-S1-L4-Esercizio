@@ -1,0 +1,159 @@
+/* IMPOSTAZIONI GENERALI */
+html {
+  font-size: 65%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  background-image: url("../img/sfondo.png");
+  padding: 10px;
+  background-position: center;
+  line-height: 1.5;
+}
+/* HEADER */
+header {
+  background-color: rgb(0, 160, 198);
+  background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 1.7rem;
+  margin-top: 1.5rem;
+}
+#logo {
+  margin-top: 1rem;
+}
+.hero-title {
+  margin-top: 2rem;
+}
+ul {
+  margin-top: 2rem;
+  line-height: 2.3rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+/* MAIN */
+main {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 3px 3px #444;
+}
+h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-top: 1.2rem;
+}
+.icon {
+  color: #a0a0a0;
+  margin-top: 1.2rem;
+}
+strong {
+  color: #a0257e;
+}
+code {
+  background-color: #e3e3e3;
+  border: 1px solid #969494;
+  border-radius: 5px;
+}
+.disc {
+  list-style-type: disc;
+  margin-left: 2.2rem;
+}
+h2 {
+  margin-top: 1.2rem;
+}
+ol {
+  list-style-type: decimal;
+  margin-top: 1.2rem;
+  margin-left: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* TABELLE */
+caption {
+  margin-top: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 1.2rem;
+}
+table {
+  padding: 2rem;
+}
+thead {
+  color: white;
+  background-color: #3f6bca;
+}
+th,
+td {
+  text-align: center;
+  padding: 15px;
+}
+.grey {
+  background-color: #f3f3f3;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+tbody {
+  border-bottom: 3px solid #3f6bca;
+}
+
+/*tool+video*/
+.test {
+  margin-top: 3rem;
+  margin-bottom: 1.8rem;
+}
+.tool {
+  color: #00a0c8;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+iframe {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+/* FORM */
+#newsletter {
+  background-color: #e3e3e3;
+}
+.news-title {
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: bold;
+  color: #333;
+  font-size: larger;
+}
+.news-p {
+  text-align: start;
+  padding: 1.5rem;
+}
+form {
+  padding: 1.5rem;
+}
+input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px dashed #333;
+}
+button {
+  color: white;
+  background-color: #3f6bca;
+  cursor: pointer;
+  border: none;
+  padding: 4px 6px;
+  font-weight: bold;
+}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
